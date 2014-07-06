@@ -49,12 +49,39 @@ header {
     width: 300px;
 }
 
+#main #navi ul {
+    padding: 0;
+    margin: 0;
+}
+
+#main #navi ul li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
 #main #contents {
     float: right;
     text-align: center;
     width: 660px;
 }
 
+
 footer {
     text-align: center;
 }
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+
