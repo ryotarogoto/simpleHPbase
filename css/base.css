@@ -1,0 +1,60 @@
+body {
+    background: #000000;
+}
+
+div#container {
+    background: #ffffff;
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+#menubar {
+    height: 65px;
+}
+
+#menubar ul {
+    padding: 0;
+    margin: 0;
+}
+
+#menubar ul li {
+    padding: 0;
+    margin: 0;
+    float: left;
+    list-style: none;
+    border-left: 1px solid #eeeeee;
+    height: 65px;
+    width: 158px;
+}
+
+#menubar ul li:first-child {
+    border-left: 0px;
+}
+
+#menubar ul li a {
+    display: block;
+}
+
+#main {
+    width: 960px;
+}
+
+#main #navi {
+    float: left;
+    text-align: center;
+    width: 300px;
+}
+
+#main #contents {
+    float: right;
+    text-align: center;
+    width: 660px;
+}
+
+footer {
+    text-align: center;
+}
